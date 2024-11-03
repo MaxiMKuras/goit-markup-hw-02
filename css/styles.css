@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -14,7 +14,7 @@ a {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -23,8 +23,7 @@ a {
   color: #4d5ae5;
 }
 
-.header-logo .logo-part,
-.logo-part {
+.header-logo .logo-part {
   color: #2e2f42;
 }
 
@@ -32,13 +31,23 @@ a {
   color: #f4f4fd;
 }
 
-.nav-link,
-.contacts-link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .nav-link:hover,
@@ -46,99 +55,4 @@ a {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
-}
-
-.contacts {
-  font-style: normal;
-}
-
-/* Section styles */
-.section-1,
-.features-section,
-.team-section,
-.projects-section {
-  background-color: #2e2f42;
-}
-
-.team-section,
-.projects-section {
-  background-color: #f4f4fd;
-}
-
-.section-title,
-.features-title,
-.team-title,
-.projects-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.section-title,
-.features-title {
-  font-size: 56px;
-  line-height: 1.07;
-  color: #ffffff;
-}
-
-.section-button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.section-button:hover,
-.section-button:focus {
-  background-color: #404bbf;
-}
-
-.feature-title,
-.project-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.feature-description,
-.project-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.team-item,
-.project-item {
-  background-color: #ffffff;
-}
-
-/* Footer styles */
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.footer-paragraph {
-  line-height: 1.5;
-  color: var(--footer-paragraph-color, #f4f4fd);
-  letter-spacing: 0.02em;
 }
