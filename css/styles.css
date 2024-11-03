@@ -23,17 +23,17 @@ a {
   color: #4d5ae5;
 }
 
-.header_logo .logo_part,
-.logo_part {
+.header-logo .logo-part,
+.logo-part {
   color: #2e2f42;
 }
 
-.footer_logo .logo_part {
+.footer-logo .logo-part {
   color: #f4f4fd;
 }
 
-.nav_link,
-.contacts_link {
+.nav-link,
+.contacts-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -41,10 +41,10 @@ a {
   color: #2e2f42;
 }
 
-.nav_link:hover,
-.nav_link:focus,
-.contacts_link:hover,
-.contacts_link:focus {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -53,22 +53,22 @@ a {
 }
 
 /* Section styles */
-.section_1,
-.features_section,
-.team_section,
-.projects_section {
+.section-1,
+.features-section,
+.team-section,
+.projects-section {
   background-color: #2e2f42;
 }
 
-.team_section,
-.projects_section {
+.team-section,
+.projects-section {
   background-color: #f4f4fd;
 }
 
-.section_title,
-.features_title,
-.team_title,
-.projects_title {
+.section-title,
+.features-title,
+.team-title,
+.projects-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -77,14 +77,14 @@ a {
   color: #2e2f42;
 }
 
-.section_title,
-.features_title {
+.section-title,
+.features-title {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
 }
 
-.section_button {
+.section-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -95,13 +95,13 @@ a {
   cursor: pointer;
 }
 
-.section_button:hover,
-.section_button:focus {
+.section-button:hover,
+.section-button:focus {
   background-color: #404bbf;
 }
 
-.feature_title,
-.project_title {
+.feature-title,
+.project-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -109,16 +109,16 @@ a {
   color: #2e2f42;
 }
 
-.feature_description,
-.project_description {
+.feature-description,
+.project-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.team_item,
-.project_item {
+.team-item,
+.project-item {
   background-color: #ffffff;
 }
 
@@ -127,7 +127,7 @@ a {
   background-color: #2e2f42;
 }
 
-.footer_logo {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -137,7 +137,7 @@ a {
   color: #4d5ae5;
 }
 
-.footer_paragraph {
+.footer-paragraph {
   line-height: 1.5;
   color: var(--footer-paragraph-color, #f4f4fd);
   letter-spacing: 0.02em;
