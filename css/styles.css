@@ -92,7 +92,8 @@ a {
 .features-section,
 .team-section,
 .projects-section {
-  background-color: #f4f4fd;
+  /* background-color: #f4f4fd;*/
+  padding: 60px 20px;
 }
 
 .features-title,
